@@ -1,0 +1,53 @@
+
+/*Barra de navegacion*/
+
+.navbar{
+ 
+  
+  font-family: poppins;
+  
+}
+
+
+.navbar-collapse{
+   align-items: center;
+   justify-content:space-between; 
+}
+/*Seccion*/
+section{
+   padding-top: 50px;
+   height: 80vh;
+
+   font-family: poppins;
+   text-align: left  ;
+   background-color:var(--maincolor);
+   
+}
+.card-title{
+   
+   align-items: center;
+   justify-content:space-between;
+   margin-top: 30px;
+   font-size: 2rem;
+}
+.card-text{
+   margin-top: 50px;
+   
+}
+
+.Footer{
+   background-color:black;
+   padding: .5rem 0;
+   color: white;
+ }
+
+
+
+
+
+@media screen and (max-width:767px){
+     .navbar-brand{
+        display: none;
+     }
+    
+}
